@@ -1,0 +1,69 @@
+Type your choice : DTree
+
+-----------------------------------------
+|Total Predicted = 699, K-fold with K = 10 
+|Total time for K-fold = 0.091613 secs           
+|Total True Positive   = 233                
+|Total True Negative   = 432                
+|Total False Positive  = 26                
+|Total False Negative  = 8                
+|Accuracy              = 95.136%            
+|Sensitivity           = 96.680%            
+|Specificity           = 94.323%            
+------------------------------------------
+
+Type your choice : DTree
+mdl = fitctree(X, Y, 'Cost',  [0 0.25; 0.75 0], 'AlgorithmForCategorical','Exact');
+-----------------------------------------
+|Total Predicted = 699, K-fold with K = 10 
+|Total time for K-fold = 0.095682 secs           
+|Total True Positive   = 229                
+|Total True Negative   = 428                
+|Total False Positive  = 30                
+|Total False Negative  = 12                
+|Accuracy              = 93.991%            
+|Sensitivity           = 95.021%            
+|Specificity           = 93.450%            
+------------------------------------------
+
+Type your choice : DTree
+mdl = fitctree(X, Y, 'Cost',  [0 0.25; 0.75 0], 'AlgorithmForCategorical','PullLeft');    
+-----------------------------------------
+|Total Predicted = 699, K-fold with K = 10 
+|Total time for K-fold = 0.093547 secs           
+|Total True Positive   = 231                
+|Total True Negative   = 434                
+|Total False Positive  = 24                
+|Total False Negative  = 10                
+|Accuracy              = 95.136%            
+|Sensitivity           = 95.851%            
+|Specificity           = 94.760%            
+------------------------------------------
+
+Type your choice : DTree
+mdl = fitctree(X, Y, 'Cost',  [0 0.25; 0.75 0], 'AlgorithmForCategorical','PCA');
+-----------------------------------------
+|Total Predicted = 699, K-fold with K = 10 
+|Total time for K-fold = 0.093534 secs           
+|Total True Positive   = 227                
+|Total True Negative   = 434                
+|Total False Positive  = 24                
+|Total False Negative  = 14                
+|Accuracy              = 94.564%            
+|Sensitivity           = 94.191%            
+|Specificity           = 94.760%            
+------------------------------------------
+
+Type your choice : DTree
+mdl = fitctree(X, Y, 'Cost',  [0 0.25; 0.75 0], 'AlgorithmForCategorical','OVAbyClass');
+-----------------------------------------
+|Total Predicted = 699, K-fold with K = 10 
+|Total time for K-fold = 0.097533 secs           
+|Total True Positive   = 228                
+|Total True Negative   = 434                
+|Total False Positive  = 24                
+|Total False Negative  = 13                
+|Accuracy              = 94.707%            
+|Sensitivity           = 94.606%            
+|Specificity           = 94.760%            
+------------------------------------------

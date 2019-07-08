@@ -1,0 +1,53 @@
+Used minkowski distance
+
+Choose K for KNN : 5
+-----------------------------------------
+|Total Predicted = 699, K-fold with K = 10 
+|Total time for K-fold = 0.087527 secs           
+|Total True Positive   = 234                
+|Total True Negative   = 447                
+|Total False Positive  = 11                
+|Total False Negative  = 7                
+|Accuracy              = 97.425%            
+|Sensitivity           = 97.095%            
+|Specificity           = 97.598%            
+------------------------------------------
+
+Choose K for KNN : 7
+-----------------------------------------
+|Total Predicted = 699, K-fold with K = 10 
+|Total time for K-fold = 0.091131 secs           
+|Total True Positive   = 229                
+|Total True Negative   = 447                
+|Total False Positive  = 11                
+|Total False Negative  = 12                
+|Accuracy              = 96.710%            
+|Sensitivity           = 95.021%            
+|Specificity           = 97.598%            
+------------------------------------------
+
+Choose K for KNN : 10
+-----------------------------------------
+|Total Predicted = 699, K-fold with K = 10 
+|Total time for K-fold = 0.088568 secs           
+|Total True Positive   = 229                
+|Total True Negative   = 447                
+|Total False Positive  = 11                
+|Total False Negative  = 12                
+|Accuracy              = 96.710%            
+|Sensitivity           = 95.021%            
+|Specificity           = 97.598%            
+------------------------------------------
+
+Choose K for KNN : 13
+-----------------------------------------
+|Total Predicted = 699, K-fold with K = 10 
+|Total time for K-fold = 0.091935 secs           
+|Total True Positive   = 231                
+|Total True Negative   = 447                
+|Total False Positive  = 11                
+|Total False Negative  = 10                
+|Accuracy              = 96.996%            
+|Sensitivity           = 95.851%            
+|Specificity           = 97.598%            
+------------------------------------------

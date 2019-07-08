@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 RANGE_XY = 100000
 def gen_points():
-    num_points = int(input("Give number of Points to generate Dalauny Triangulation: "))
+    num_points = int(input("Give number of Points to generate Delauny Triangulation: "))
     return np.array([[np.random.randint(0, RANGE_XY),np.random.randint(0, RANGE_XY)] for i in range(num_points)])
 
 def compute_plot_delauny(points):

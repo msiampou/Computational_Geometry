@@ -1,0 +1,127 @@
+Type your choice : SVM
+mdl = fitcsvm(X, Y, 'KernelFunction', 'gaussian');
+-----------------------------------------
+|Total Predicted = 699, K-fold with K = 10 
+|Total time for K-fold = 0.138778 secs           
+|Total True Positive   = 235                
+|Total True Negative   = 443                
+|Total False Positive  = 15                
+|Total False Negative  = 6                
+|Accuracy              = 96.996%            
+|Sensitivity           = 97.510%            
+|Specificity           = 96.725%            
+------------------------------------------
+
+Type your choice : SVM
+mdl = fitcsvm(X, Y, 'KernelFunction', 'linear');
+-----------------------------------------
+|Total Predicted = 699, K-fold with K = 10 
+|Total time for K-fold = 0.115210 secs           
+|Total True Positive   = 231                
+|Total True Negative   = 446                
+|Total False Positive  = 12                
+|Total False Negative  = 10                
+|Accuracy              = 96.853%            
+|Sensitivity           = 95.851%            
+|Specificity           = 97.380%            
+------------------------------------------
+
+Type your choice : SVM
+mdl = fitcsvm(X, Y, 'KernelFunction', 'polynomial', 'PolynomialOrder',2);
+-----------------------------------------
+|Total Predicted = 699, K-fold with K = 10 
+|Total time for K-fold = 0.217937 secs           
+|Total True Positive   = 227                
+|Total True Negative   = 446                
+|Total False Positive  = 12                
+|Total False Negative  = 14                
+|Accuracy              = 96.280%            
+|Sensitivity           = 94.191%            
+|Specificity           = 97.380%            
+------------------------------------------
+
+Type your choice : SVM
+mdl = fitcsvm(X, Y, 'KernelFunction', 'polynomial', 'PolynomialOrder', 3);
+-----------------------------------------
+|Total Predicted = 699, K-fold with K = 10 
+|Total time for K-fold = 0.232674 secs           
+|Total True Positive   = 224                
+|Total True Negative   = 446                
+|Total False Positive  = 12                
+|Total False Negative  = 17                
+|Accuracy              = 95.851%            
+|Sensitivity           = 92.946%            
+|Specificity           = 97.380%            
+------------------------------------------
+
+Type your choice : SVM
+mdl = fitcsvm(X, Y, 'KernelFunction', 'polynomial', 'PolynomialOrder', 5);
+-----------------------------------------
+|Total Predicted = 699, K-fold with K = 10 
+|Total time for K-fold = 0.362546 secs           
+|Total True Positive   = 212                
+|Total True Negative   = 442                
+|Total False Positive  = 16                
+|Total False Negative  = 29                
+|Accuracy              = 93.562%            
+|Sensitivity           = 87.967%            
+|Specificity           = 96.507%            
+------------------------------------------
+
+Type your choice : SVM
+mdl = fitcsvm(X, Y, 'KernelFunction', 'gaussian', 'Solver','SMO'); %K(x,x') = exp(-||x-x'||^2)
+-----------------------------------------
+|Total Predicted = 699, K-fold with K = 10 
+|Total time for K-fold = 0.128783 secs           
+|Total True Positive   = 235                
+|Total True Negative   = 442                
+|Total False Positive  = 16                
+|Total False Negative  = 6                
+|Accuracy              = 96.853%            
+|Sensitivity           = 97.510%            
+|Specificity           = 96.507%            
+------------------------------------------
+
+
+Type your choice : SVM
+mdl = fitcsvm(X, Y, 'KernelFunction', 'gaussian', 'Solver','ISDA'); %K(x,x') = exp(-||x-x'||^2)
+-----------------------------------------
+|Total Predicted = 699, K-fold with K = 10 
+|Total time for K-fold = 0.189038 secs           
+|Total True Positive   = 236                
+|Total True Negative   = 442                
+|Total False Positive  = 16                
+|Total False Negative  = 5                
+|Accuracy              = 96.996%            
+|Sensitivity           = 97.925%            
+|Specificity           = 96.507%            
+------------------------------------------
+
+Type your choice : SVM
+mdl = fitcsvm(X, Y, 'KernelFunction', 'gaussian', 'Solver','L1QP'); %K(x,x') = exp(-||x-x'||^2)
+-----------------------------------------
+|Total Predicted = 699, K-fold with K = 10 
+|Total time for K-fold = 11.892637 secs           
+|Total True Positive   = 234                
+|Total True Negative   = 443                
+|Total False Positive  = 15                
+|Total False Negative  = 7                
+|Accuracy              = 96.853%            
+|Sensitivity           = 97.095%            
+|Specificity           = 96.725%            
+------------------------------------------
+
+
+Type your choice : SVM
+mdl = fitcsvm(X, Y, 'KernelFunction', 'gaussian', 'Solver','ISDA', 'CacheSize','maximal'); %K(x,x') = exp(-||x-x'||^2)
+-----------------------------------------
+|Total Predicted = 699, K-fold with K = 10 
+|Total time for K-fold = 0.175478 secs           
+|Total True Positive   = 235                
+|Total True Negative   = 442                
+|Total False Positive  = 16                
+|Total False Negative  = 6                
+|Accuracy              = 96.853%            
+|Sensitivity           = 97.510%            
+|Specificity           = 96.507%            
+------------------------------------------

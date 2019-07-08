@@ -1,0 +1,125 @@
+In every of the above i used :        
+mdl.Prior = struct('ClassNames',[2, 4],'ClassProbs',[0.655; 0.345]);
+
+
+Type your choice : BAYES
+mdl = fitcnb(X, Y); 
+costs : 0.1 , 0.9
+-----------------------------------------
+|Total Predicted = 699, K-fold with K = 10 
+|Total time for K-fold = 0.756419 secs           
+|Total True Positive   = 237                
+|Total True Negative   = 435                
+|Total False Positive  = 23                
+|Total False Negative  = 4                
+|Accuracy              = 96.137%            
+|Sensitivity           = 98.340%            
+|Specificity           = 94.978%            
+------------------------------------------
+
+Type your choice : BAYES
+mdl = fitcnb(X, Y); 
+costs : 0.25 , 0.75
+-----------------------------------------
+|Total Predicted = 699, K-fold with K = 10 
+|Total time for K-fold = 0.723786 secs           
+|Total True Positive   = 237                
+|Total True Negative   = 436                
+|Total False Positive  = 22                
+|Total False Negative  = 4                
+|Accuracy              = 96.280%            
+|Sensitivity           = 98.340%            
+|Specificity           = 95.197%            
+------------------------------------------
+
+Type your choice : BAYES
+mdl = fitcnb(X, Y); 
+costs : 0.2 , 0.8
+-----------------------------------------
+|Total Predicted = 699, K-fold with K = 10 
+|Total time for K-fold = 0.860953 secs           
+|Total True Positive   = 236                
+|Total True Negative   = 436                
+|Total False Positive  = 22                
+|Total False Negative  = 5                
+|Accuracy              = 96.137%            
+|Sensitivity           = 97.925%            
+|Specificity           = 95.197%            
+------------------------------------------
+
+
+Type your choice : BAYES
+mdl = fitcnb(X, Y,'DistributionNames','kernel','Kernel','normal');
+costs : 0.25 , 0.75
+-----------------------------------------
+|Total Predicted = 699, K-fold with K = 10 
+|Total time for K-fold = 1.238566 secs           
+|Total True Positive   = 232                
+|Total True Negative   = 443                
+|Total False Positive  = 15                
+|Total False Negative  = 9                
+|Accuracy              = 96.567%            
+|Sensitivity           = 96.266%            
+|Specificity           = 96.725%            
+------------------------------------------
+
+Type your choice : BAYES
+mdl = fitcnb(X, Y,'DistributionNames','kernel', 'Kernel', 'box');
+costs : 0.25 , 0.75
+-----------------------------------------
+|Total Predicted = 699, K-fold with K = 10 
+|Total time for K-fold = 1.302383 secs           
+|Total True Positive   = 233                
+|Total True Negative   = 443                
+|Total False Positive  = 15                
+|Total False Negative  = 8                
+|Accuracy              = 96.710%            
+|Sensitivity           = 96.680%            
+|Specificity           = 96.725%            
+------------------------------------------
+
+
+Type your choice : BAYES
+mdl = fitcnb(X, Y,'DistributionNames','kernel', 'Kernel', 'triangle');
+costs : 0.25 , 0.75
+-----------------------------------------
+|Total Predicted = 699, K-fold with K = 10 
+|Total time for K-fold = 1.169238 secs           
+|Total True Positive   = 232                
+|Total True Negative   = 445                
+|Total False Positive  = 13                
+|Total False Negative  = 9                
+|Accuracy              = 96.853%            
+|Sensitivity           = 96.266%            
+|Specificity           = 97.162%            
+------------------------------------------
+
+Type your choice : BAYES
+mdl = fitcnb(X, Y,'CategoricalPredictors', 'all', 'DistributionNames', 'mvmn');
+costs : 0.25 , 0.75
+-----------------------------------------
+|Total Predicted = 699, K-fold with K = 10 
+|Total time for K-fold = 0.792678 secs           
+|Total True Positive   = 239                
+|Total True Negative   = 443                
+|Total False Positive  = 15                
+|Total False Negative  = 2                
+|Accuracy              = 97.568%            
+|Sensitivity           = 99.170%            
+|Specificity           = 96.725%            
+------------------------------------------
+
+
+Type your choice : BAYES
+mdl = fitcnb(X, Y,'DistributionNames','normal');
+-----------------------------------------
+|Total Predicted = 699, K-fold with K = 10 
+|Total time for K-fold = 0.800770 secs           
+|Total True Positive   = 235                
+|Total True Negative   = 436                
+|Total False Positive  = 22                
+|Total False Negative  = 6                
+|Accuracy              = 95.994%            
+|Sensitivity           = 97.510%            
+|Specificity           = 95.197%            
+------------------------------------------
